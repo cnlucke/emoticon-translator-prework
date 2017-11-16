@@ -3,8 +3,8 @@ require "yaml"
 def load_library(file_path)
   file_hash = YAML::load_file(file_path)
   new_hash = {}
-  new_hash[get_meaning] = {}
-  new_hash[get_emoticon] = {}
+  new_hash["get_meaning"] = {}
+  new_hash["get_emoticon"] = {}
   meaning_holder = ""
 
   file_hash.each do |meaning, emoticons|
