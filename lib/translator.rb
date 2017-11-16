@@ -1,7 +1,5 @@
 require "yaml"
 
-puts emoticons
-
 def load_library(file_path)
   YAML::load_file(file_path, 'emoticons.yml')
 end
