@@ -1,4 +1,4 @@
-require "./lib/emoticons.yml"
+require "~/emoticon-translator-prework/lib/emoticons.yml"
 
 def load_library
   # code goes here
